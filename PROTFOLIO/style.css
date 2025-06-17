@@ -1,0 +1,206 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #020918;
+    color: white;
+    font-family: poppins;
+    font-weight: 450;
+}
+
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color:#051331 ;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style:none;
+    margin: 0 23px;
+    
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+}
+
+nav ul li a:hover{
+    color:rgb(170, 170, 210);
+}
+
+.left{
+    font-size:1.5rem;
+}
+
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+    align-items: center;
+    
+}
+
+
+.leftSection{
+    font-size: 2.5rem;
+}
+
+.leftSection .btn{
+    padding:10px;
+    background: #0b0c3c;
+    color:white;
+    border:none;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor:pointer;
+    font-weight: 600;
+}
+
+
+.leftSection .buttons{
+    padding:50px 0;
+}
+
+
+.rightSection{
+    width:34px;
+   
+}
+
+#element{
+    color:purple;
+}
+
+
+.rightSection img{
+    width:80%;
+  
+}
+
+
+.firstSection > div{
+    width:30%;
+}
+
+
+.purple{
+    color:purple;
+}
+
+
+.secondSection{
+    max-width: 80vw;
+    margin:auto;
+    height: 60vh;
+}
+
+.secondSection h1{
+    font-family: poppins;
+    font-size: 1.9rem;
+}
+
+main hr{
+ border:0;
+ background: #061f54;
+ height: 1.2px;
+ margin: 60px 84px;
+}
+
+.text-gray{
+    color:gray;
+}
+
+.secondSection .box{
+    background: white;
+    width:98%;
+    height:2px;
+    margin:56px 0;
+    display:flex
+}
+
+.secondSection .vertical{
+    height:93px;
+    width:1px;
+    background-color: white;
+    margin: 0 100PX;
+
+}
+
+
+.image-top{
+    width:33px;
+    position: relative;
+    top: -32px;
+    left:-9px;
+}
+
+.vertical-title{
+   position: relative;
+   top: 75px;
+   width:150px;
+   font-size: 14px;
+}
+
+
+.vertical-desc{
+   position: relative;
+   top:86px;
+   color:gray;
+   width:150px;
+   font-size:9px;
+}
+
+
+footer{
+    background-color:  #031131;
+}
+
+.footer{
+    display: flex;
+    padding:24px 122px ;
+    justify-content: space-evenly;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer > div{
+    width:224px;
+}
+
+
+footer h3{
+    color:purple;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+
+
+@media (max-width: 1000px) {
+  header, main, footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
